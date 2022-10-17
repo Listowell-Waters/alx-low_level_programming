@@ -11,7 +11,10 @@ int main(void)
 	int ch;
 
 	ch = 'a';
-	putchar(ch);
-
+	while (ch <= 'z')
+	{
+		printf("ch");
+		ch++;
+	}
 	return (0);
 }
