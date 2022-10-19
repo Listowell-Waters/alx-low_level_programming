@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
  * main - This function prints a string
@@ -10,6 +8,14 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	list_char('_');
+	list_char('p');
+	list_char('u');
+	list_char('t');
+	list_char('c');
+	list_char('h');
+	list_char('a');
+	list_char('r');
+	list_char('\n');
 	return (0);
 }
