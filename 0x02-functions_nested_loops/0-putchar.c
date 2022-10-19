@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * main - This function prints a string
  * Author: Listowell Appiah
@@ -8,14 +9,14 @@
 
 int main(void)
 {
-	list_char('_');
-	list_char('p');
-	list_char('u');
-	list_char('t');
-	list_char('c');
-	list_char('h');
-	list_char('a');
-	list_char('r');
-	list_char('\n');
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
